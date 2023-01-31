@@ -24,13 +24,13 @@
 }
 
 .hs1 {
-  background-image: url(pic/hs1.jpg);
+  background-image: url(../pic/hs1.jpg);
   background-size: cover;
   background-position: 58% 50%;
 }
 
 .hs2 {
-  background-image: url(/pic/hs2.jpg);
+  background-image: url(../pic/hs2.jpg);
   background-size: cover;
   background-position: 50% 30%;
 }
