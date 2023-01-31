@@ -1,252 +1,50 @@
-@font-face {
-    font-family: Chocolatey;
-    src: url(../fonts/Quite\ Chocolatey.ttf);
-}
-@font-face {
-    font-family: PTSerifRegular;
-    src: url(../fonts/PTSerif-Regular.ttf);
-}
-@font-face {
-    font-family: MontserratBold;
-    src: url(../fonts/Montserrat-Bold.ttf);
-}
-@font-face {
-    font-family: MontserratRegular;
-    src: url(../fonts/Montserrat-Regular.ttf);
-}
-@font-face {
-    font-family: CoutureBold;
-    src: url(../fonts/couture-bld.otf);
-}
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  box-sizing: border-box;
 }
-.info_box {
-    background-image: url(../img/info_box.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    background-color: #dd2211;
-    /* width: 1200px; */
-    margin: 0 auto;
 
-}
 .container {
-    width: 1011px;
-    margin: 0 auto;
-    /* border: 2px solid blue; */
-}
-.info_box_head {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 12px;
-}
-.info_box_logo {
-    font-family: Chocolatey;
-    font-size: 88px;
-    color: white;
-    margin-left: -20px;
-}
-.info_box_menu ul {
-    display: flex;
-    width: 510px;
-    justify-content: space-around;
-}
-.info_box_menu ul li {
-    font-size: 18px;
-    font-family: MontserratRegular, Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
-    font-weight: bold;
-    list-style: none;
-    color: white;
-    padding: 6px;
-}
-.info_box_menu ul li:hover {
-    background-color: black;
-    border-radius: 5px;
-}
-.info_box_title {
-    margin-top: 166px;
-    margin-bottom: 53px;
-}
-.info_box_title h2 {
-    font-family: MontserratBold;
-    font-size: 90px;
-    text-transform: uppercase;
-    line-height: 80px;
-}
-.info_box_title h2:last-child {
-    color: white;
-}
-.info_box_text {
-    color: white;
-    font-family: PTSerifRegular;
-    font-size: 20px;
-    width: 490px;
-    padding-bottom: 161px;
-}
-.service_box {
-    width: 1200px;
-    margin: 0 auto;
-}
-.service_title {
-    margin: 45px 0px 89px 0px;
-    font-family: CoutureBold;
-    font-size: 50px;
-    line-height: 37px;
-}
-.service_title span {
-    color: red;
-}
-.service_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.service_item {
-    width: 180px;
-    text-align: center;
-}
-.service_img {
-    height: 155px;
-}
-.service_text {
-    margin-top: 29px;
-    margin-bottom: 74px;
-    line-height: 28px;
-    font-family: PTSerifRegular, Arial, Helvetica, sans-serif;
-    font-size: 20px;
-}
-.our_story {
-    /* width: 1200px; */
-    margin: 0 auto;
-    background-color: #130e27;
-}
-.story_box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 65vw;
+  height: 40vh;
 
-}
-.story_text {
-    color: #f4f4f5;
-    font-size: 20px;
-    font-family: PTSerifRegular;
-    line-height: 28px;
-    width: 639px;
-    margin-top: 47px;
-    margin-bottom: 44px;
-}
-.story_buttom {
-    color: white;
-    height: 65px;
-    width: 271px;
-    background-color: #c62314;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: MontserratRegular,Arial, Helvetica, sans-serif;
-    font-size: 22px;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
-.pricing {
-    background-color: #efefef;
-}
-.pricing_box {
-    text-align: center;
-}
-.pricing_box_title {
-    font-family: MontserratBold;
-    font-size: 50px;
-    line-height: 50px;
-    padding-top: 49px;
-    padding-bottom: 61px;
-    text-transform: uppercase;
-}
-.pricing_menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.pricing_item {
-    width: 320px;
-    height: 394px;
-    background-color: white;
-    margin-bottom: 65px;
-}
-.pricing_item_title {
-    font-family: PTSerifRegular;
-    font-size: 22px;
-    line-height: 17px;
-    text-transform: capitalize;
-    margin-top: 34px;
-    margin-bottom: 39px;
-}
-.pricing_item h2 {
-    font-family: MontserratBold;
-    font-size: 60px;
-    line-height: 43px;
-    color: #c62314;
-    text-transform: uppercase;
-    margin-bottom: 36px;
-}
-.pricing_item ul {
-    font-family: PTSerifRegular;
-    font-size: 20px;
-    line-height: 22px;
-    text-transform: capitalize; 
-}
-.pricing_item li {
-    margin-bottom: 5px;
-}
-.pricing_buttom {
+  border: 1px solid black;
 
-    font-family: MontserratRegular;
-    font-size: 22px;
-    text-transform: uppercase;
-    height: 49px;
-    width: 205px;
-    background-color: #130e27;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    margin: 0 auto;
-    margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: radial-gradient(rgb(3, 3, 3), rgb(182, 182, 182));
 }
-.red_buttom {
-    background-color: #c62314;
+
+.heart {
+  width: 200px;
+  height: 200px;
+
+  border: 5px solid rgb(21, 8, 70);
+  border-radius: 40% 40% 0 0;
 }
-.footer {
-    background-color: #130e27;
-    /* width: 1200px; */
-    margin: 0 auto;
+
+.hs1 {
+  background-image: url(pic/hs1.jpg);
+  background-size: cover;
+  background-position: 58% 50%;
 }
-.footer_box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+.hs2 {
+  background-image: url(pic/hs2.jpg);
+  background-size: cover;
+  background-position: 50% 30%;
 }
-.footer_text {
-    margin-top: 79px;
-    margin-bottom: 95px;
-    color: white;
-    margin-left: -20px;
-    font-family: PTSerifRegular;
-    font-size: 20px;
-    line-height: 17px;
+
+.hs1,
+.hs2 {
+  filter: drop-shadow(0 20px 20px white);
+  transition: transform 2s ease;
 }
-.footer_text span {
-    color: #b52117;
-}
-.footer_logo {
-    color: #c62314;
-    font-family: Chocolatey;
-    font-size: 64px;
+
+.hs1:hover,
+.hs2:hover {
+  transform: scale(1.2);
+  /* transform: skew(40deg, 10deg);
+  transform: rotateY(360deg); */
+  transform: rotate3d(0, 1, 1, 360deg);
 }
