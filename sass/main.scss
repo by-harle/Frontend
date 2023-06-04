@@ -1,0 +1,39 @@
+// Base
+
+// @import "./base/reset";
+// @import "./base/normalize";
+
+@import "./base/fonts";
+@import "./base/vars";
+@import "./base/base";
+
+// Blocks
+
+// Header
+@import "./blocks/header";
+@import "./blocks/navigation";
+@import "./blocks/logo";
+@import "./blocks/nav";
+@import "./blocks/mobile-nav";
+@import "./blocks/presentation";
+
+// Aboutme
+@import "./blocks/aboutme";
+
+// Skills
+@import "./blocks/skills";
+@import "./blocks/skillsbox";
+
+// Contactme
+@import "./blocks/contactme";
+
+// Footer
+@import "./blocks/copyright";
+
+// Buttons and others
+@import "./blocks/fill";
+@import "./blocks/button";
+@import "./blocks/title";
+@import "./blocks/animations";
+@import "./blocks/nav-button";
+@import "./blocks/media";
