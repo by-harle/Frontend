@@ -1,0 +1,14 @@
+.contact-me {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}

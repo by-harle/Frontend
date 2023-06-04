@@ -1,0 +1,15 @@
+.header {
+  background-image: url("./../img/background/bg-section1.png");
+
+  &__navigation {
+    padding: 30px 0;
+  }
+
+  &__nav-button {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 70px;
+    right: 50px;
+  }
+}
