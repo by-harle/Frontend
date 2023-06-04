@@ -73,7 +73,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <!-- Header__navigation -->
         <div class="header__navigation navigation">
@@ -87,18 +87,20 @@
           </div>
           <nav class="navigation__nav nav">
             <ul class="nav__list">
-              <li class="nav__item"><a href="#">Обо мне</a></li>
-              <li class="nav__item"><a href="#">Скиллы</a></li>
-              <li class="nav__item"><a href="#">Контакты</a></li>
+              <li class="nav__item"><a href="#aboutme">Обо мне</a></li>
+              <li class="nav__item"><a href="#skills">Скиллы</a></li>
+              <li class="nav__item"><a href="#contact-me">Контакты</a></li>
             </ul>
           </nav>
 
           <nav class="navigation__mobile-nav mobile-nav">
             <ul class="mobile-nav__list">
-              <li class="mobile-nav__item"><a href="#">Домой</a></li>
-              <li class="mobile-nav__item"><a href="#">Обо мне</a></li>
-              <li class="mobile-nav__item"><a href="#">Скиллы</a></li>
-              <li class="mobile-nav__item"><a href="#">Контакты</a></li>
+              <li class="mobile-nav__item"><a href="#header">Домой</a></li>
+              <li class="mobile-nav__item"><a href="#aboutme">Обо мне</a></li>
+              <li class="mobile-nav__item"><a href="#skills">Скиллы</a></li>
+              <li class="mobile-nav__item">
+                <a href="#contact-me">Контакты</a>
+              </li>
             </ul>
           </nav>
         </div>
@@ -138,7 +140,7 @@
     </header>
 
     <main>
-      <section class="aboutme">
+      <section class="aboutme" id="aboutme">
         <div class="container">
           <h2 class="aboutme__title title_section">Обо мне</h2>
           <div class="aboutme__row">
@@ -214,7 +216,7 @@
         </div>
       </section>
 
-      <section class="skills">
+      <section class="skills" id="skills">
         <div class="container">
           <div class="skills__maintitle">
             <h2 class="title_section">Мои Скиллы</h2>
