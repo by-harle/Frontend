@@ -1,0 +1,23 @@
+.copyright {
+  &__inner {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__span::after {
+    display: inline-block;
+    content: "";
+    height: 30px;
+    width: 3px;
+    background-color: white;
+    margin: 0 15px;
+    transform: translate(-50%, 20%);
+  }
+}

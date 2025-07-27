@@ -1,0 +1,33 @@
+.skills {
+  padding-top: 80px;
+  padding-bottom: 0px;
+  background-image: url("./../img/background/bg-section4.png");
+
+  &__maintitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  &__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  &__textbox {
+    max-width: 600px;
+  }
+
+  &__title {
+    margin-bottom: 60px;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: justify;
+  }
+}

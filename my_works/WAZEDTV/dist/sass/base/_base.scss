@@ -1,0 +1,27 @@
+html,
+body {
+  color: #fff;
+
+  font-family: "RobotoSlab", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  background-color: $base-background-color;
+
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1292px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.none {
+  display: none;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}

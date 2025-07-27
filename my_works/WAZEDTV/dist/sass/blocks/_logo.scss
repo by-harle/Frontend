@@ -1,0 +1,18 @@
+.logo {
+  font-weight: 900;
+  font-size: 20px;
+
+  &__link {
+    height: 40px;
+  }
+
+  &:hover {
+    animation: updown 2s timing-function delay iteration-count direction
+      fill-mode;
+    animation-name: updown;
+    animation-duration: 0.9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+}

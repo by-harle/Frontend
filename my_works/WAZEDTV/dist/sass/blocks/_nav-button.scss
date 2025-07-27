@@ -1,0 +1,61 @@
+.nav-button:focus,
+.nav-button:active {
+  outline: none;
+}
+
+.nav-button {
+  padding-top: 10px;
+  width: 42px;
+  height: 20px;
+
+  &__icon {
+    display: block;
+    width: 42px;
+    height: 5px;
+    border: none;
+    background-color: white;
+    position: relative;
+
+    transition: background-color 1s ease-in;
+  }
+}
+
+.nav-button__icon::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: -10px;
+
+  transition: transform 0.5s ease-in, top 0.5s ease-out;
+}
+
+.nav-button__icon::after {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 10px;
+
+  transition: transform 0.5s ease-in, top 0.5s ease-out;
+}
+
+.nav-button_close .nav-button__icon {
+  background-color: transparent;
+}
+
+.nav-button_close .nav-button__icon::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.nav-button_close .nav-button__icon::after {
+  transform: rotate(-45deg);
+  top: 0;
+}

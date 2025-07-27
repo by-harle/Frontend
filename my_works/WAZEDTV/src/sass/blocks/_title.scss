@@ -1,0 +1,30 @@
+.title {
+  &_section {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+
+      display: block;
+      content: "";
+      width: 40%;
+      height: 2px;
+      background-color: $accent-color;
+    }
+  }
+
+  &_desc {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  &_skills {
+    font-size: 30px;
+    font-weight: 500;
+  }
+}
